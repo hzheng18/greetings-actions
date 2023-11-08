@@ -39,7 +39,7 @@ jobs:
         name: greetings-jar
         path: build/libs
     
-test-run:
+  test-run:
     
     runs-on: ubuntu-latest
     needs: build
